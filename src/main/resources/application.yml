@@ -10,7 +10,7 @@ spring:
       server:
         git:
           uri: https://github.com/osmondpomare/spring-cloud-config
-          search-paths: ${application}
+          search-paths: '{application}'
       fail-fast: true
       allow-override: true
       override-none: true
