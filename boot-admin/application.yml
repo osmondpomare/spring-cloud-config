@@ -1,3 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  boot:
+    admin:
+      context-path: /admin
+      ui:
+        public-url: http://local.services/admin
+
 management:
   endpoints:
     web:
@@ -6,12 +16,6 @@ management:
   endpoint:
     health:
       show-details: always
-
-spring:
-  boot:
-    admin:
-      ui:
-        public-url: http://local.services/admin
 
 eureka:
   instance:
