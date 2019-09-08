@@ -7,6 +7,12 @@ management:
     health:
       show-details: always
 
+spring:
+  boot:
+    admin:
+      ui:
+        public-url: http://local.services/admin
+
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
